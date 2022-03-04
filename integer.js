@@ -67,6 +67,74 @@
 // }
 
 
+// =========================problem 10
+
+// let a = +prompt()
+
+// if (a==1) {
+//     console.log("bosh barmoq");
+// }
+
+// else if (a==2) {
+//     console.log("ko'rsatkich barmoq");
+// }
+
+// else if (a==3) {
+//     console.log("o'rta barmoq");
+// }
+
+// else if (a==4) {
+//     console.log("nomsiz barmoq");
+// }
+
+// else if (a==5) {
+//     console.log("kichik barmoq");
+// }
+// else {
+//     console.log("notog'ri ma'lumot kirtildi");
+// }
+
+
+
+// =========================problem 11
+
+// let a = +prompt();
+// let sum =0;
+
+// while(a>0){
+//     let b = a % 10;
+//     sum += b;
+//     a = Math.floor(a /= 10);
+// }
+// console.log(sum);
+
+
+// =========================problem 12
+
+// let a = +prompt()
+// let sum =0
+
+// for (let i =0; i<=a; i++){
+//     sum += i;
+// }
+// console.log(sum);
+
+
+// =========================problem 13
+
+// let a = 10
+// let sum =0
+
+// for (let i =0; i<=a; i++){
+//     if (i%2==0){
+//         sum += i;
+//     }
+// }
+// console.log(sum);
+
+
+// =========================problem 14
+
 // let a = 10;
 // let n1 = 0;
 // let n2 = 1;
@@ -81,3 +149,35 @@
 // else {
 //     console.log(n2);
 // }
+
+
+
+// ===================problem 15 masala
+
+
+// let a = 1212122;
+// let b =0;
+// let  s1 = 0;
+// let  s2 = 0;
+
+// while (a) {
+//     b = a%10;
+//     a = Math.floor(a/10);
+//     if (b==1) {
+//         s1+= b/b;
+//     }
+//     if (b==2) {
+//         s2+= b/b;
+//     }
+// }
+//  if (s1<s2) {
+//      console.log("gerb");
+//  }
+//  else {
+//     console.log("so'm");
+// }
+
+
+
+
+
