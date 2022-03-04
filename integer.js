@@ -67,13 +67,17 @@
 // }
 
 
-let a = +prompt();
-let n1 = 0;
-let n2 = 1;
-let sum;
-for (let i = 1; i <= a; i++) {
-    console.log(n1);
-    sum = n1 + n2;
-    n1 = n2;
-    n2 = sum;
-}
+// let a = 10;
+// let n1 = 0;
+// let n2 = 1;
+// for (let i = 1; i <= a-2; i++) {
+//     let b = n2;
+//     n2 = n1 + n2;
+//     n1 = b;
+// }
+// if (a==1) {
+//     console.log(n1);
+// }
+// else {
+//     console.log(n2);
+// }
