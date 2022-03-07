@@ -98,13 +98,13 @@
 
 // =========================problem 11
 
-// let a = +prompt();
+// let a = 67;
 // let sum =0;
 
 // while(a>0){
 //     let b = a % 10;
 //     sum += b;
-//     a = Math.floor(a /= 10);
+//     a = Math.floor(a / 10);
 // }
 // console.log(sum);
 
@@ -176,6 +176,18 @@
 //  }
 //  else {
 //     console.log("so'm");
+// }
+
+// =========================problem 16
+
+// let a = 1452;
+// let sum =0;
+
+// while(a>0){
+//     let b = a % 10;
+//     a = Math.floor(a /= 10);
+//     // if ();
+//     console.log(b);
 // }
 
 
